@@ -3,7 +3,7 @@
 
 ### Background ##
 
-Code to solve a "generalized" sudoku puzzle with square dimensions.  The solver Utilizes Douglas-Rachford splitting as a solution heuristic (standard backtracking also implemented).  This allows us to tackel larger problems: backtracking has exponential complexity in the problem dimension, so solving "large" problems with standard techniques is infeasible.  We've tested our code for a 100x100 sudoku game with good results (solution within 15 minutes, while backtracking failed to solve even 25x25 games over a few hour time period).
+Code to solve a "generalized" sudoku puzzle with square dimensions.  The solver utilizes Douglas-Rachford splitting as a solution heuristic (a standard backtracking solver is also implemented).  This allows us to tackle larger problems: backtracking has exponential complexity in the problem dimension, so solving "large" problems with standard techniques is infeasible.  We've tested our code for a 100x100 sudoku puzzle with promising results (solve times around 15 minutes).
 
 ### Useage ###
 
@@ -20,4 +20,4 @@ Note: input game is stored as a csv file with missing entries filled in with 0s,
 
 ### References ###
 
-"Recent Results on Douglas–Rachford Methods for Combinatorial Optimization Problems"
+Recent Results on Douglas–Rachford Methods for Combinatorial Optimization Problems
